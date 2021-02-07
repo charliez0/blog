@@ -1,0 +1,133 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Encrypted Hello World | charlie's blog</title><meta name="keywords" content="测试"><meta name="author" content="charliez0"><meta name="copyright" content="charliez0"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="Password is helloworld"><meta property="og:type" content="article"><meta property="og:title" content="Encrypted Hello World"><meta property="og:url" content="https://charliez0.js.org/2020/11/15/encrypt-helloworld/"><meta property="og:site_name" content="charlie&#39;s blog"><meta property="og:description" content="Password is helloworld"><meta property="og:locale" content="zh_CN"><meta property="og:image" content="https://charliez0.js.org/2020/11/15/encrypt-helloworld/cover.jpg"><meta property="article:published_time" content="2020-11-14T16:00:00.000Z"><meta property="article:modified_time" content="2020-11-15T15:50:45.676Z"><meta property="article:author" content="charliez0"><meta property="article:tag" content="测试"><meta name="twitter:card" content="summary"><meta name="twitter:image" content="https://charliez0.js.org/2020/11/15/encrypt-helloworld/cover.jpg"><link rel="shortcut icon" href="/img/favicon.ico"><link rel="canonical" href="https://charliez0.js.org/2020/11/15/encrypt-helloworld/"><link rel="preconnect" href="//cdn.jsdelivr.net"><link rel="preconnect" href="//busuanzi.ibruce.info"><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload='this.media="all"'><script>const GLOBAL_CONFIG={root:"/",algolia:void 0,localSearch:{path:"search.xml",languages:{hits_empty:"找不到您查询的内容：${query}"}},translate:{defaultEncoding:2,translateDelay:0,msgToTraditionalChinese:"繁",msgToSimplifiedChinese:"簡"},noticeOutdate:void 0,highlight:{plugin:"highlighjs",highlightCopy:!0,highlightLang:!0},copy:{success:"复制成功",error:"复制错误",noSupport:"浏览器不支持"},relativeDate:{homepage:!1,post:!1},runtime:"天",date_suffix:{just:"刚刚",min:"分钟前",hour:"小时前",day:"天前",month:"个月前"},copyright:void 0,lightbox:"fancybox",Snackbar:void 0,source:{jQuery:"https://cdn.jsdelivr.net/npm/jquery@latest/dist/jquery.min.js",justifiedGallery:{js:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/js/jquery.justifiedGallery.min.js",css:"https://cdn.jsdelivr.net/npm/justifiedGallery/dist/css/justifiedGallery.min.css"},fancybox:{js:"https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.js",css:"https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@latest/dist/jquery.fancybox.min.css"}},isPhotoFigcaption:!1,islazyload:!0,isanchor:!1}</script><script id="config-diff">var GLOBAL_CONFIG_SITE={isPost:!0,isHome:!1,isHighlightShrink:!1,isToc:!0,postUpdate:"2020-11-15 23:50:45"}</script><noscript><style>#nav{opacity:1}.justified-gallery img{opacity:1}#post-meta time,#recent-posts time{display:inline!important}</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    })(window)</script><meta name="generator" content="Hexo 5.3.0"><link rel="alternate" href="/atom.xml" title="charlie's blog" type="application/atom+xml"></head><body><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="author-avatar"><img class="avatar-img" data-lazy-src="/img/avatar.jpg" onerror='onerror=null,src="/img/friend_404.gif"' alt="avatar"></div><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/tags/"><div class="headline">标签</div><div class="length-num">1</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/categories/"><div class="headline">分类</div><div class="length-num">1</div></a></div></div></div><hr><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时光轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header" style="background-image:url(/2020/11/15/encrypt-helloworld/cover.jpg)"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">charlie's blog</a></span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 时光轴</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page" href="/friends/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于我</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav><div id="post-info"><h1 class="post-title">Encrypted Hello World</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-11-14T16:00:00.000Z" title="发表于 2020-11-15 00:00:00">2020-11-15</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2020-11-15T15:50:45.676Z" title="更新于 2020-11-15 23:50:45">2020-11-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/%E6%B5%8B%E8%AF%95/">测试</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-pv-cv"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"></span></span></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content" id="article-container"><div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look."><script id="hbeData" type="hbeData" data-hmacdigest="c8f60d16419a5a19e8f43f16119d4efc33206aefaaadf12f0e85d4ca5d75386a">90b802059200f1da98db072b6ecfd0770fdc750cbf8106fee0f270e81269963904d1e6fd97880784c3a74e5d3ea178a539638936b68490745bf63cad66e0e846679eac07a9ff1dcb7117124ef630d90ba93212d571c3d9ffff9af7175e9c3f30ea735e37dd2df1ef71d2b6211af21a9cf4e13b744ae5c4e21a6acc3d1bf191859884cf3819321e706de836dfc1e0f3f3018b4836993d0a0e0cc3466bdf61ec4b4466d636afa559a0bf4a435a3223d978a6692a82a3f03bc2d72cf77902b210775cd1aa39da630d217d63fdeefe06cd8f09f319ee35bd1c07eb66e0aef231198846c011b85eb8ccbbddf20865bedb7610a8588f1510179f826611ab73a4de60d23b68610e767b6e0fbb4ef13d32d1d5e6f41c1528d367ff2545f2b070ab9b3966f2900bc72721f5182652215d4571d22094c8df6e433d7b96dc541c0af50935a34d06409dcab90ce08ab4a50f476575fddeaaf62b3e782b682d05dbec4387072b48eaa3dbdb0dd626c37e960dbd0ceec300ef08b7ab9ac650f0c8c9ae9bd9b481356b5a35ae38ab71776273ece2fba1a2401ba8156413c42ff22c676bcb0853f3eb49e5c649d7e81bd7b9c7551748dc8fc14bce9847056ef3fe3e55558a4735a21912a66c4a4d56b8cdd7e26cb22e7a7ac2fe1956ef4e07be9a6216707aa0465fdf8e3f8e4b966981930d0cb7a9c85f7911f6909b49d5ef776e75fc9e253dcb216e9a405e2a8b22edc0b19ee12d5a3856c2a4e75b5614aa7d10c56659cfa53e032f7a4e05bacea5d66af3fb502cd3f3bf25475bf0825a255c21d82d82d544534e43f79f07f122cee894c09c7e39b7d7492de1077e5bcf92656460dd385aafdefa6ae2e58126842376e0ada1ef4d0f26d96cff4a5cfbb9ee5d546581fbe95cc4c7a9bffd8fc136d07ebbcebacf94bb5463e0484537b1068388570c1719831964db572d652f89ed8d15fe6ad00a54117a6e3844eacde54dc067190933359cee2a670d6b43935b2b8c2c8504082e44875e6e700d88d9ae57ae11e3137dc8666ba60a3d9ef078a3378fbe34277da9f08082be7c7838bbf17a969bea1b3e0f2e8d3baaf12858e4c148c41b53bfa091df327e4a4090f7aa31b22ffda0878262396bb7fcd49b288e8f3f2ea7591194b9d3e8446bbcb3313fda70c65ffde2b92225d3074a79aea1f207c4cf6d41cb3e049f8ae0c4a905ac824b41e46e74a69f6b438a007a45f0de0f653ebb53be9f2b397308aea97870ed5687bd086da27c4f8038319db6e5e1c0a17b42955e372b1b099555119ed173f33b9021967e07ca7c47c4dbc98f718ea4cd43e1a4c1ecb1739d03d2a0c2610fd84d809bfe9c5d15d48d58a85cb8669b4fcdab29c5e455ecfb04f556c30e307e1b8bc3a7dc15a8b9f5473dcd1b99a3b9f242cb08ecae42abe1d3f2038c00e9cab48f4e0f57ebff892f3532a8253f3518dfeefe124d60f24bf43a971b991725d9377035110f71e48c41ef9058b2faed4b973c23ef5aecb5327373d357f49401616c789cb5df1013c5b8d7286312d2a9216248f139f338428af651910082430f8b4714ce92bb4ce846f9218fda41252134249492107de606e7d909a1a52bde78d64e6c77abc1443d775914d5de4f31ce4d3f6005e58ce964384802f3c1a753e5620770b42c154795b86756ada8d1610cbd5bbe11ac8a6a04648b38b8c341892c71494953a9f82b458f50ac061389355d80ccf198021afe3238f7dee961c3b2c0f85adba6661e6b7c0fb47a0bee99fc132904f592a44e65464b1bac488ad438cc130bbe9d3fb4f17c647ab7b33adc8850ef387f90fbef211260299f43ad083d22ecf33ebf2d3a639ce58cc4a2bb823cfaa7f9a56de8aba7ec1fc5dd967c8237a38038e4f53d897c5c114d9d0ec94f884a9929cdff393b0138f11f7f816669dcca05822b132b67085b95d8a189c7291d5b96e6cbd453e62de901ff17d18283f33da7cd133a74d19cc219a1a1afaa3f8c85ab3106a91a95ee07324c8c95c6de9d1bb79a999e3402a40e670f7eb83c62b30b7680189a2bf71f7575b34931b0fe9131e8283ae65a86753273a54f02f2fc155deaa6d554822594a34985dbe1b5d780faa5c7f9b4a5f648b7fab6609b5ae34c832e8693403950300dcd8b55f88d204347eca7c6d2215bd45e30cd1c0c3e15a1263a8c66d98eb352e9b8fd58018bf2d164812534f5b4af554fd8f68103f3fe250fca058d6b15ebc8d32f81e54569cc8f2c260f0fb7dc6ce555a6bad46851527c0a6918ae8970585a83fe5da6ca619beb19d3fa208c01bd04d550df7b9a075170728eda78a6f3ed52a880a49cbcb756b7ee6279257bd97ce2b7717a840e26860a478faa36c60f68aa2e3fdf4e4dcd47d3cbf6df42fe97655b12aea0588599098dbd7d214b353df827abeffff34cc3ec527041097a14d010b00493ff2cfcdb3656fb9243b8f56cf128f9780ec61f9589ceaff54356ee29e48a921d6908983eb26d6a63cd3a4e7273e54fd107657f00b96c4386113788792a0721188ad5cc6c5764ded020fe5391732abf19c69e33f81214ef9aab840fe6807bde167a17a01887f20667c5ce637fde9b744ff62f4592869a2cd473e50ae93607ea591f4348233a797f69233b93a5317f51d2c3f610a3e4bc01cbdf5bc66bd4076b78b54b20d514b366268f8494ccf682388f01633f4bd537d84795dbecaa4df38344737add5db9fa6fdf00da33e928dab35e56ce88026c9b341e63168cfafee3eb6c340f087a638b0ee149233207b1b6157296278ab6405ad6f60602c1590788a49893c9c03e54a5715c3350724fc72e3223b60f69eaf36252e233234c1fd261ec327d26a6689c88806fd722b4d32f42a29375414356797c838c7c833e1c4f2b801aa94612656cf32df689168bc505a4c2b5375aabe9904206aeccb8e300e6aaca775f2f3e049558e7f9ceefcf080146e0fccd6d98312b4cf78c16283c1cdb2dd22be1c119d9fdb6cb0bd61f2bfd1f84886c66761342775925c8ac1d7dc822579c255212596fa8c2acd7ddce2cb699143b51532305d489f1ba97539be81a3ab6c606d19e385601af0a9c1bb5e08c8271e3f788d843e7a1c6ba92632ec8c4774e67b51b58dff92383d731e1a488998adf11e92839a4810913c6c1a77f6b113a8d4b1c2be44c5f41768d1dd837fc591c4dcb1f7bb67ce83e225d7b51a19c0dfb8ce2fb6e2d4a61a67ad757754017ee35b3073ec4ea124684f8ca570b8de98993b9959d41a2b154b84d</script><div class="hbe hbe-content"><div class="hbe hbe-input hbe-input-default"><input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass"> <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass"><span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span></label></div></div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet"></article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="mailto:undefined">charliez0</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="https://charliez0.js.org/2020/11/15/encrypt-helloworld/">https://charliez0.js.org/2020/11/15/encrypt-helloworld/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="https://charliez0.js.org" target="_blank">charlie's blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/%E6%B5%8B%E8%AF%95/">测试</a></div><div class="post_share"><div class="social-share" data-image="/2020/11/15/encrypt-helloworld/cover.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/social-share.js/dist/css/share.min.css" media="print" onload='this.media="all"'><script src="https://cdn.jsdelivr.net/npm/social-share.js/dist/js/social-share.min.js" defer></script></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2020/11/15/helloworld/"><img class="next-cover" data-lazy-src="/2020/11/15/helloworld/cover.jpg" onerror='onerror=null,src="/img/404.jpg"' alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">Hello World</div></div></a></div></nav><div class="relatedPosts"><div class="headline"><i class="fas fa-thumbs-up fa-fw"></i><span> 相关推荐</span></div><div class="relatedPosts-list"><div><a href="/2020/11/15/helloworld/" title="Hello World"><img class="cover" data-lazy-src="/2020/11/15/helloworld/cover.jpg" alt="cover"><div class="content is-center"><div class="date"><i class="far fa-calendar-alt fa-fw"></i> 2020-11-15</div><div class="title">Hello World</div></div></a></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i><span>公告</span></div><div class="announcement_content">Welcome to charlie's blog!</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span></div><div class="toc-content toc-div-class" style="display:none"></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2020/11/15/encrypt-helloworld/" title="Encrypted Hello World"><img data-lazy-src="/2020/11/15/encrypt-helloworld/cover.jpg" onerror='this.onerror=null,this.src="/img/404.jpg"' alt="Encrypted Hello World"></a><div class="content"><a class="title" href="/2020/11/15/encrypt-helloworld/" title="Encrypted Hello World">Encrypted Hello World</a><time datetime="2020-11-14T16:00:00.000Z" title="发表于 2020-11-15 00:00:00">2020-11-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/11/15/helloworld/" title="Hello World"><img data-lazy-src="/2020/11/15/helloworld/cover.jpg" onerror='this.onerror=null,this.src="/img/404.jpg"' alt="Hello World"></a><div class="content"><a class="title" href="/2020/11/15/helloworld/" title="Hello World">Hello World</a><time datetime="2020-11-14T16:00:00.000Z" title="发表于 2020-11-15 00:00:00">2020-11-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/11/15/vercel-proxy/" title="Vercel proxy"><img data-lazy-src="/2020/11/15/vercel-proxy/cover.jpg" onerror='this.onerror=null,this.src="/img/404.jpg"' alt="Vercel proxy"></a><div class="content"><a class="title" href="/2020/11/15/vercel-proxy/" title="Vercel proxy">Vercel proxy</a><time datetime="2020-11-14T16:00:00.000Z" title="发表于 2020-11-15 00:00:00">2020-11-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2020/11/15/welcome/" title="Welcome"><img data-lazy-src="/img/defaultcover.jpg" onerror='this.onerror=null,this.src="/img/404.jpg"' alt="Welcome"></a><div class="content"><a class="title" href="/2020/11/15/welcome/" title="Welcome">Welcome</a><time datetime="2020-11-14T16:00:00.000Z" title="发表于 2020-11-15 00:00:00">2020-11-15</time></div></div></div></div></div></div></main><footer id="footer" style="background-image:url(/2020/11/15/encrypt-helloworld/cover.jpg)"><div id="footer-wrap"><div class="copyright">&copy;2020 - 2021 By charliez0</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="translateLink" type="button" title="简繁转换">簡</button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div id="local-search"><div class="search-dialog"><div class="search-dialog__title" id="local-search-title">本地搜索</div><div id="local-input-panel"><div id="local-search-input"><div class="local-search-box"><input class="local-search-box--input" placeholder="搜索文章" type="text"></div></div></div><hr><div id="local-search-results"></div><span class="search-close-button"><i class="fas fa-times"></i></span></div><div id="search-mask"></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="/js/tw_cn.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload/dist/lazyload.iife.min.js"></script><script>function panguFn () {
+  if (typeof pangu === 'object') pangu.autoSpacingPage()
+  else {
+    getScript('https://cdn.jsdelivr.net/npm/pangu/dist/browser/pangu.min.js')
+      .then(() => {
+        pangu.autoSpacingPage()
+      })
+  }
+}
+
+function panguInit () {
+  if (false){
+    GLOBAL_CONFIG_SITE.isPost && panguFn()
+  } else {
+    panguFn()
+  }
+}
+
+document.addEventListener('DOMContentLoaded', panguInit)</script><script src="/js/search/local-search.js"></script><div class="js-pjax"><script>if (!window.MathJax) {
+  window.MathJax = {
+    loader: {
+      source: {
+        '[tex]/amsCd': '[tex]/amscd'
+      }
+    },
+    tex: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"]],
+      tags: 'ams'
+    },
+    options: {
+      renderActions: {
+        findScript: [10, doc => {
+          for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+            const display = !!node.type.match(/; *mode=display/)
+            const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display)
+            const text = document.createTextNode('')
+            node.parentNode.replaceChild(text, node)
+            math.start = {node: text, delim: '', n: 0}
+            math.end = {node: text, delim: '', n: 0}
+            doc.math.push(math)
+          }
+        }, ''],
+        addClass: [200,() => {
+          document.querySelectorAll('mjx-container:not([display=\'true\']').forEach( node => {
+            const target = node.parentNode
+            if (!target.classList.contains('has-jax')) {
+              target.classList.add('mathjax-overflow')
+            }
+          })
+        }, '', false]
+      }
+    }
+  }
+  
+  const script = document.createElement('script')
+  script.src = 'https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js'
+  script.id = 'MathJax-script'
+  script.async = true
+  document.head.appendChild(script)
+} else {
+  MathJax.startup.document.state(0)
+  MathJax.texReset()
+  MathJax.typeset()
+}</script></div><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
