@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>charlie&#39;s blog</title>
+  
+  
+  <link href="https://charliez0.js.org/atom.xml" rel="self"/>
+  
+  <link href="https://charliez0.js.org/"/>
+  <updated>2021-02-08T11:52:00.372Z</updated>
+  <id>https://charliez0.js.org/</id>
+  
+  <author>
+    <name>charliez0</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Encrypted Hello World</title>
+    <link href="https://charliez0.js.org/2020/11/15/encrypt-helloworld/"/>
+    <id>https://charliez0.js.org/2020/11/15/encrypt-helloworld/</id>
+    <published>2020-11-14T16:00:00.000Z</published>
+    <updated>2021-02-08T11:52:00.372Z</updated>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="1b985b5d9f45456c5a55d2698bae9051b986cc231f176708cf6b79707141e8f0">90b802059200f1da98db072b6ecfd0770fdc750cbf8106fee0f270e81269963904d1e6fd97880784c3a74e5d3ea178a539638936b68490745bf63cad66e0e846679eac07a9ff1dcb7117124ef630d90ba93212d571c3d9ffff9af7175e9c3f30ea735e37dd2df1ef71d2b6211af21a9c09abd3fcdfb0257bd589b4601746b298d0d444f7fbdb6e4851a29ac97c7019aa8f9a9365f411c08c505179a47b6dc7fd3acddd0f86c76058a19c409a03b60740fd4719efa72ceaaf5350711740b05e6ffcb5b95d38159ba70f24b11bcaf57b28f5394a9e02da0f402f021bf2c55189ac608990e3f83711229f41d27ab99d1ba67977e0d307629a8bf44602362c6d1f8052765a292ed90233e2eab458f2628c64b7059a2b741e8be6d0819f6a1b188d9d0d8a5848bd7bebfb9dc814a4de0bedf30f7dfb1cea287fb7d021b2ff4aadbd5bbf89af1db20b1fe6f6fec709f8b1e90aa97612e41ead2a0e32a4198ce52bf9e24c980ef5ff3f7c5b2ac217f393add1f960c62cef380c7291f5119009f98345c5d3947ac719a9d87d2729f9d4e3ec311a2a68a1dd08ef145da6465ac91555155a8a0fe8a0dcae17c750e86753ab8a809ca16f90f308c3682c11fe263c8232423d304a161f27648e1e27843bcc64dd0e2680bafce3b78af28e0f42cdf45ff313c68f1b74766f6be9d21c862907105149a0092c8b2ca91899bfd00d4d14a5ff8b7502bae2c83ae01b3fa7d15585cd6fe1a38af46dc7f497d98a273192b9d7fd3d3818db19b0cf593d008fbed5a9f0053943720e52c15f26d7ca40769b540508abe3cc2f8f55a1cb22d910db8333317d89a6a8156bd2efecf0ba114db627bba9e66a2f0bb611490facf3e1f02b8c0d8275588f042ff1c52350e0a4c8cc6e8588db40d072527e1d2b11d24e60f4567d13ec522cef3ac52afd3b566e77437a7e1443b2a3dbc8c39258c51e7dad1a0ffa20db7b868d0ac12e650d5a0d522d712d010d8cb602fd01ef107e200813dffbfa71e79a21b401ce1be780602ad73b290c7387916ad036381b71a380e1d2023e71f0b7910eef65720301519a184978e68f689bacb7a65eae934dec5a28ceef3b29118fc93436efeb1c4e7df1406f24f64989d557f6aeeeb92ede941a5b3d5c5b4e206a45be014ded0e3653166153015f99601a7ea75f1abf3bde9c2fc146a9e36e1b146feae314750aaad28d39cb656831d1e0f2e762063d7795492820ff81f8bff3e81e486b196eceea4111ae3e301467a4d7ee108b10e8f82cf6c022c822a1758d3f7c18422c28f2a1241f87f4fd4407ae8da1ddcad63084ccd5628f18be59d3f0b1c00186b30a62700398d3128577b306285ca0f838387b3908fea7e7d86bac966ad29181378ea39966fb4daabfaa42889c1852c020238cb8d349aff0cacecb0ee7c93f42ebd72e3e5d3fd1a661a762b5baad3328284e431a6b73349ffc6b0e7c394e0edf28caf4c461f8d9cb0ca2bd54e8d893493d31420efde8fe88a38e6673d0be1c4a4b79f5645c37a1b64ae31c4d422dbc9265647af37a48137b3498b4fe2ef3e34a597c4acfd79c6cac07880172569897dcc572124d6fd8cacddca6f7b0c8eea0d8183c5af6b4b6049f7a1f239e1f2581818057d1cef742ab7b8af4e77adb7464a340e885c43de0f0aec74ebc160679b4bea61fbd22078dffef9e7222a977abcbe6a2cf372aa6a7fd9fa88d6ff1e051a6016d4f4bd2e7fa5ed59dfe337c461e7bfbe711faaf90016601b9fee085de125d91803acccb7448fe6a0f53f2f8abff11f69c40ddec2f08f5c99363fd466e84565447bc6688c982913a1aa88adc583eb68a21611fbd6b3c2ca400b9bb77d8c17ee66938912b1602df68580ad573339c3cb39f27ebca5c7085887f95e7d7edb0487a7bcdd5c765558ab6b5e2ab899ea99a20904a35b77eb37eb9d9400f0657f86ab02f3bb1fae13ee037f939e9f5488970f766fcd4957c8ce8d990c30ba1f878510589846ea26458d8d0b766875f4e6db3401323a6a301749d3bc0e12ac0af626af71cf56e5d5a1ad88a68178285f96b129654058e11f967f6ac52f2f1f0ee08876ac05bba23371a3ffd2d9d4d24a369d03b1068550464589c808ebd57659b29c867792024afa22a3e0d4f7cd4c926e19e09e53519442ad2a1bc2742be9814d0d0efed756bac41d6aa6002d2f0c2e1fb881eeaa8d3280fd71a4c95d28c4a886086320242cdbb7b156f71d32600e4bedaa67265d6428f218065f3ce269ab9110ac52890fc1d44f50f90606189f894157f13df8e2c0c7a67a75a771e105d7cd7baa3d9e90f2d463aff05d558442bd59a5b50e72cd1c1b91139fe22ce4623d9602ff76f4ee8960c4cbaaa20a35094a86b03302adc67d3d9e3600d98e6eb8e89263ae011e559bd302969e3385bc30c6b6c7588281158d1227a11be042e70e08add8f42291896f773006c47c52e3cb24788f01eaa51c98253d4fb1868ce68c9554c4a527704df9d0a0bbcc87b3a3800e67a9e58e7fb970652e86d13bc45a745999bcf00eda3891ed8d7fc5e0e04f09f0355e9bea04a73104ae1da5b000e389b98d9fdeed1cf9d9ca5181d460239507a06f6727058fe76815de4b19f1545e933ce0684de43210966421b8789012d21df1685adda9867896ec8c4cf30a4557b823ecf6901e69785f2c04df21445128be502512fe00ea6da6b8a60126e65cac8a1dfaaf02a8b03c42e263afda822f42570788350cec347a3f1c0e77571b46c4487f5de6cd65c2ca5a60d3bfce66a0347bd244b16012a251da7c2704a818841a355ccd7e96c5731f9250d9ae5f38c5a40dc5926ff20322c5aab33019ee85fd4ebdeb32b7509f1a9df17ca094c5c0595825d0fbba093c14ce5d6bfe98bd215b7c94569aaa0be9e1ec74904788b1767842f2211690bb4ce05139fbd60ed02320b562f8caa8c1a2e0080c80d787a39682d8045a1fd9dba3b56efb8e604c96757dddd3481a04d7087de3b93add1076cd001683c7d29009fdc39f6a691dd549510e17a3c1f000ce5daa71f2de0dfb49016a1beeee42075907296181e675b5fddedaed047457e3cd60541777dfc8b14fa8ecdebfde4d7c7ddbb1bcec3b3b45ee8bee392eef0e22291a3eacdf6762a670513f4473f2f52ab728712ef01828ea618ed69845f06b642cecbb77066a6a1a584e765d6a95e6e829dcc2dfb4e22e516807af6aeed6c932261489b5c6305b765f978744b5400517d</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    <summary type="html">Password is helloworld</summary>
+    
+    
+    
+    <category term="测试" scheme="https://charliez0.js.org/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="测试" scheme="https://charliez0.js.org/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://charliez0.js.org/2020/11/15/helloworld/"/>
+    <id>https://charliez0.js.org/2020/11/15/helloworld/</id>
+    <published>2020-11-14T16:00:00.000Z</published>
+    <updated>2021-02-08T11:52:00.360Z</updated>
+    
+    <content type="html"><![CDATA[<p><em>Hello world!</em><br><strong>Hello world!</strong><br><code>Hello world!</code></p><span id="more"></span><figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstdio&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;cstring&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span> <span class="meta-string">&lt;algorithm&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> std;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">(<span class="keyword">void</span>)</span></span></span><br><span class="line"><span class="function"></span>&#123;</span><br><span class="line">    <span class="keyword">int</span> a,b;</span><br><span class="line">    <span class="built_in">scanf</span>(<span class="string">&quot;%d%d&quot;</span>,&amp;a,&amp;b);</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;%d\n&quot;</span>,a+b);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>$$<br>\frac{\partial u}{\partial t} = h^2 \left( \frac{\partial^2 u}{\partial x^2} + \frac{\partial^2 u}{\partial y^2} + \frac{\partial^2 u}{\partial z^2}\right)<br>$$</p>]]></content>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;em&gt;Hello world!&lt;/em&gt;&lt;br&gt;&lt;strong&gt;Hello world!&lt;/strong&gt;&lt;br&gt;&lt;code&gt;Hello world!&lt;/code&gt;&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="测试" scheme="https://charliez0.js.org/categories/%E6%B5%8B%E8%AF%95/"/>
+    
+    
+    <category term="测试" scheme="https://charliez0.js.org/tags/%E6%B5%8B%E8%AF%95/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Vercel proxy</title>
+    <link href="https://charliez0.js.org/2020/11/15/vercel-proxy/"/>
+    <id>https://charliez0.js.org/2020/11/15/vercel-proxy/</id>
+    <published>2020-11-14T16:00:00.000Z</published>
+    <updated>2021-02-08T11:52:00.360Z</updated>
+    
+    <content type="html"><![CDATA[<p><code>Vercel</code> 比 <code>CloudFlare</code>（另一家 CF ）快多了，爸爸再也不用怕打 CF 网卡啦～</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;code&gt;Vercel&lt;/code&gt; 比 &lt;code&gt;CloudFlare&lt;/code&gt;（另一家 CF ）快多了，爸爸再也不用怕打 CF 网卡啦～&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Welcome</title>
+    <link href="https://charliez0.js.org/2020/11/15/welcome/"/>
+    <id>https://charliez0.js.org/2020/11/15/welcome/</id>
+    <published>2020-11-14T16:00:00.000Z</published>
+    <updated>2021-02-08T11:52:00.360Z</updated>
+    
+    
+    
+    
+    
+  </entry>
+  
+</feed>
